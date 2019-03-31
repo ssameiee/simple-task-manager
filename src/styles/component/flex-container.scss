@@ -1,0 +1,31 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+
+  @include md() {
+    flex-direction: row;
+  }
+
+  &__space-evenly {
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  &__center {
+    align-items: center;
+    justify-content: center;
+
+    &--items {
+      align-items: center;
+    }
+  }
+
+  &__space-between {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__length {
+    flex: 1;
+  }
+}

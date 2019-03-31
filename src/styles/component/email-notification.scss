@@ -1,0 +1,9 @@
+.email-notification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__icon {
+    margin: 0 1rem;
+  }
+}

@@ -1,0 +1,28 @@
+// Variables & Mixins
+// --------------------------
+@import 'variables/all';
+@import 'mixins/all';
+// --------------------------
+// elements
+// --------------------------
+@import './component/body-reset';
+@import './component/header';
+@import './component/avatar';
+@import './component/avatar-new';
+@import './component/alignment';
+@import './component/padding';
+@import './component/color';
+@import './component/icon'; // this is new
+@import './component/progress-bar';
+@import './component/flex-container';
+@import './component/border-box';
+@import './component/margins';
+@import './component/projects';
+@import './component/team';
+@import './component/container';
+@import './component/search';
+@import './component/buttons';
+@import './component/task';
+@import './component/frame';
+@import './component/email-notification';
+@import './component/stats';

@@ -1,0 +1,12 @@
+.search-box {
+  display: flex;
+  align-items: center;
+
+  &__input {
+    border: none;
+    font-size: 1rem;
+    width: 100%;
+    padding: 1.26rem 0;
+
+  }
+}

@@ -1,0 +1,24 @@
+.stats {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.stat {
+  padding: 0.2rem;
+
+  &__count {
+    font-size: 1.4rem;
+    margin: 1rem;
+    font-weight: bold;
+  }
+
+  &__heading {
+    font-size: 1.1rem;
+  }
+
+  &__subheading {
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+}

@@ -1,0 +1,14 @@
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+
+  svg,
+  img {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+  }
+}

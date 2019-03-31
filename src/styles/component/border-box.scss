@@ -1,0 +1,33 @@
+.border {
+  border: 0.01rem solid #fffffd;
+
+  &--bottom {
+    border-bottom: 0.1rem solid #e9eaee;
+  }
+
+  &--left {
+    border-left: 0.1rem solid #e9eaee;
+  }
+
+  &--left-dark {
+    border-left: 0.1rem solid #e4e4e7;
+  }
+
+  &--top {
+    border-top: 0.1rem solid #e9eaee;
+  }
+
+  &__tick-purple {
+    &--left {
+      border-left: 0.5rem solid purple;
+    }
+  }
+
+  &__special {
+    border-bottom: 0.1rem solid #e9eaee;
+
+    @include md() {
+      border-bottom: 0;
+    }
+  }
+}

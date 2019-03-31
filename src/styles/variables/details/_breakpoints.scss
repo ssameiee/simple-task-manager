@@ -1,0 +1,26 @@
+// Set the number of columns you want to use on your layout.
+$flexbox-grid-columns: 12 !default;
+// Set the gutter between columns.
+$flexbox-gutter-width: 2rem !default;
+// Set a margin for the container sides.
+$flexbox-outer-margin: 1rem !default;
+// Create or remove breakpoints for your project
+$mobile-xs: 320px !default;
+$tablet-sm: 768px !default;
+$tablet-md: 1024px !default;
+$desktop-lg: 1200px !default;
+$desktop-xl: 1680px !default;
+$desktop-full-hd: 1920px !default;
+$desktop-4k: 2560px !default;
+
+// xl $desktop-xl 167rem,
+// fhd $desktop-full-hd 191rem
+
+$flexbox-breakpoints: sm $tablet-sm 76rem,
+md $tablet-md 101rem,
+lg $desktop-lg 119rem !default;
+
+$flexbox-max-width: $desktop-full-hd !default;
+
+$gutter-compensation: $flexbox-gutter-width * 0.5 * -1;
+$half-gutter-width: $flexbox-gutter-width * 0.5;

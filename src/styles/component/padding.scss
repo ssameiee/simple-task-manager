@@ -1,0 +1,13 @@
+.padding {
+  &--base {
+    padding: 2rem;
+  }
+
+  &--left {
+    padding-left: 2rem;
+  }
+
+  &--special {
+    padding: 1.71rem;
+  }
+}

@@ -1,0 +1,21 @@
+.margin {
+  &__left {
+    &--xs {
+      margin-left: 1rem;
+    }
+
+    &--s {
+      margin-left: 2rem;
+    }
+  }
+
+  &__right {
+    &--xs {
+      margin-right: 1rem;
+    }
+
+    &--s {
+      margin-right: 2rem;
+    }
+  }
+}
