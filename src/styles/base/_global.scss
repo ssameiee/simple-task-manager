@@ -1,0 +1,104 @@
+// html {
+  //   // Reset font-size to 10px in order to make it easier to calculate in REM
+  //   font-size: 62.5%; // 10px = 1rem
+  //   -webkit-box-sizing: border-box;
+  //   -moz-box-sizing: border-box;
+  //   box-sizing: border-box;
+  //   width: 100%;
+  //   height: 100%;
+  // }
+
+  // *,
+  // *:before,
+  // *:after {
+  //   -webkit-box-sizing: inherit;
+  //   -moz-box-sizing: inherit;
+  //   box-sizing: inherit;
+  // }
+
+  // // Removes the focus outline that many browsers like.
+  // :focus {
+  //   outline: none;
+  // }
+
+  // body {
+  //   // Makes sure text and other things cannot be hightlighted in the app.
+  //   -webkit-touch-callout: none;
+  //   /* iOS Safari */
+  //   //user-select: none;
+
+  //   // Prevent webkit touch-hold highlighting
+  //   -webkit-tap-highlight-color: transparent;
+
+  //   // Makes font nicer.
+  //   -webkit-font-smoothing: antialiased;
+  //   -moz-osx-font-smoothing: grayscale;
+
+  //   //font-size: $font-size-base;
+  //   /* default font-size for document */
+  //   line-height: 1.5;
+  //   /* a nice line-height */
+
+  //   //font-weight: $font-weight-medium;
+  //   //font-family: $font-family-base;
+
+  //   //color: $dark-blue;
+  //   // Fluid responsive font
+  //   //@include fluid-type($mobile-xs, $desktop-full-hd, 12px, 22px);
+  // }
+
+  // p {
+  //   //font-weight: $font-weight-medium;
+  // }
+
+  // // .section {
+  // //   @extend .p-tb;
+  // // }
+
+  // .pointer {
+  //   cursor: pointer;
+  // }
+
+  // .flex {
+  //   display: flex;
+
+  //   &__1 {
+  //     flex: 1;
+  //   }
+  // }
+
+  // .loader {
+  //   position: relative;
+
+  //   &::after {
+  //     background: rgba(blue, 0.3);
+  //     content: ' ';
+  //     position: absolute;
+  //     top: 0;
+  //     left: 0;
+  //     height: 96%;
+  //     width: 100%;
+  //     display: flex;
+  //     justify-content: center;
+  //     align-items: center;
+  //     color: white;
+  //     z-index: 0;
+  //   }
+
+  //   &::before {
+  //     animation: logo 1.5s infinite;
+  //     animation-delay: 0s;
+  //     content: 'Loading...';
+  //     position: absolute;
+  //     font-weight: 900;
+  //     top: 0;
+  //     left: 0;
+  //     height: 100%;
+  //     width: 100%;
+  //     display: flex;
+  //     justify-content: center;
+  //     align-items: center;
+  //     color: white;
+  //     z-index: 1;
+  //   }
+  // }

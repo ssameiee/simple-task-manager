@@ -24,5 +24,8 @@
     "parcel-bundler": "^1.12.3",
     "prop-types": "^15.7.2",
     "sass": "^1.17.3"
-  }
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
 }

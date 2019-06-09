@@ -15,6 +15,33 @@ export default class Stats extends React.Component {
 
   componentDidMount() {
     console.log('componentDidMount');
+    setTimeout(() => {
+      // Promise
+      fetch('/api/stats.json')
+        .then(reponse => reponse.json())
+        .then(m => {
+          this.setState({
+            isLoaded: m.success,
+            items: m.data,
+          });
+        })
+        .catch(e => {
+          this.setState({
+            error: e.message,
+          });
+        });
+
+      // // async / await
+      // const fn = async () => {
+      //   const response = await fetch('/api/stats.json');
+      //   const m = await response.json();
+      //   this.setState({
+      //     isLoaded: m.success,
+      //     items: m.data,
+      //   });
+      // };
+      // fn();
+    }, 5000);
   }
 
   componentWillMount() {
@@ -25,9 +52,11 @@ export default class Stats extends React.Component {
     console.log('render');
     return (
       <div className="stats">
-        {this.state.items.map((stat, index) => {
-          return <Stat key={index} count={stat.count} heading={stat.heading} subHeading={stat.subHeading} />;
-        })}
+        {this.state.isLoaded
+          ? this.state.items.map((stat, index) => {
+              return <Stat key={index} count={stat.count} heading={stat.heading} subHeading={stat.subHeading} />;
+            })
+          : 'Loading...'}
       </div>
     );
   }
